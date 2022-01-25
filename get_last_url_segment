@@ -5,4 +5,8 @@
 	$numSegments = count($segments); 
 	$currentSegment = $segments[$numSegments - 1];
 ?>
-<a href="./index.php" class="<?php if(($currentSegment  == "index.php") || ($currentSegment  == "")){ ?> active <?php } ?>"> Home </a>
+<a href="./index.php" class="<?php if(($currentSegment  == "index.php") || ($currentSegment  == "")){ ?> active <?php } ?>"> HOME </a>
+<a href="./about.php" class="<?php if($currentSegment  == "about.php"){ ?> active <?php } ?>"> ABOUT </a>
+<a href="./contact.php" class="<?php if($currentSegment  == "contact.php"){ ?> active <?php } ?>"> CONTACT </a>
+...........
+............
